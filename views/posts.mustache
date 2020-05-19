@@ -1,0 +1,19 @@
+<html>
+<head></head>
+<body>
+<h1>Blog Posts</h1>
+
+<ul>
+{{#allPosts}}
+<li>
+<p><b>Title: </b>{{title}}</p>
+<p><b>Body: </b>{{body}}</p>
+<p><b>Date Published: </b>{{date_created}}</p>
+<p><b>Date Updated: </b>{{date_updated}}</p>
+<p><b>Confirmation of publication: </b>{{is_published}}</p>
+</li>
+{{/allPosts}}
+</ul>
+</body>
+
+</html>
